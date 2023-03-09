@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div>
+        Temperature Converter
+    </div>
+    <section>
+        <div class="changeFontSize">
+            Temperature
+        </div>
+        <div>
+            <input type="number" name="temperature" id="temp">
+        </div>
+        <div class="changeFontSize">
+            Type (Unit)
+        </div>
+        <div>
+            <select name="type" id="Type">
+                <option value="celsius" selected>Degree Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div class="changeFontSize">
+            Result
+        </div>
+        <div>
+            <input type="text" name="result" id="Result">
+        </div>
+        <div>
+            <input type="button" value="Convert" id="convertButton">
+        </div>
+    </section>
+    <script src="task3.js"></script>
+</body>
+</html>
